@@ -1,0 +1,5 @@
+asm: assembleur de référence
+corewar: machine virtuelle de référence
+champions/: petits champions d'exemple
+
+un visualiseur graphique pour interpréter les sorties binaires (flag -b) de la machine virtuelle se trouve sur http://corewar.42.fr
