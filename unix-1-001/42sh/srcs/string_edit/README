@@ -1,0 +1,13 @@
+Le fichier 'build_prompt.c' contient une creation d'un prompt temporaire qui ne sert que pour vous envoyez ici.
+
+La vraie contruction du prompt necessite de recuperer une partie des builtins du sh1 dont je ne suis pas 100% sur, en particulier la copy du char**environ et le getenv.
+
+Je met quand meme dans le dossier "prompt" mes fichiers precedant pour que vous puissiez voir comment j'ai fait, peu importe l'interet final.
+
+Avec mon prompt d'origine, il faut gerer le cas ou il n'y a pas de variable USER, PWD ou HOME.
+
+J'ai mis pas mal de commentaire dans ma fonction 'do_even_more_shit' du fichier 'listen.c' pour en faciliter la comprehension
+
+Le prompt ne s'affiche pas immediatement, sans que je ne comprennes pourquoi...
+
+En theorie, je ne dispose d'aucune fuite memoire mais ca meriterai d'etre reteste apres integration.
